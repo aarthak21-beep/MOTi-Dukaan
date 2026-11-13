@@ -157,14 +157,15 @@ export const AppwriteSetupGuide: React.FC = () => {
 
   const envSample = `# Appwrite Cloud Credentials
 VITE_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
-VITE_APPWRITE_PROJECT_ID=your-project-id
-VITE_APPWRITE_DATABASE_ID=moti_dukaan_db
+VITE_APPWRITE_PROJECT_ID=6aec72aa000ab9b6e984
+VITE_APPWRITE_DATABASE_ID=PASTE_EXISTING_DATABASE_ID
 
 # Collection IDs (Default names)
 VITE_APPWRITE_COLLECTION_SHOPS=shops
 VITE_APPWRITE_COLLECTION_CUSTOMERS=customers
 VITE_APPWRITE_COLLECTION_PRODUCTS=products
 VITE_APPWRITE_COLLECTION_SALES=sales
+VITE_APPWRITE_COLLECTION_SALE_ITEMS=sale_items
 VITE_APPWRITE_COLLECTION_PAYMENTS=payments
 VITE_APPWRITE_COLLECTION_EXPENSES=expenses
 VITE_APPWRITE_COLLECTION_STOCK_MOVEMENTS=stock_movements`;
@@ -192,7 +193,7 @@ VITE_APPWRITE_COLLECTION_STOCK_MOVEMENTS=stock_movements`;
           </div>
           <div>
             <h3 className="text-sm font-bold text-slate-900">
-              Appwrite Cloud प्रोजेक्ट आणि डेटाबेस तयार करा
+              आधीपासून असलेला MOTIQCurrent प्रोजेक्ट वापरा
             </h3>
             <p className="text-xs text-slate-500">
               Appwrite Cloud (https://cloud.appwrite.io) वरील पावले
@@ -245,7 +246,7 @@ VITE_APPWRITE_COLLECTION_STOCK_MOVEMENTS=stock_movements`;
               Appwrite Database Collections (टेबल्स व ॲट्रिब्युट्स)
             </h3>
             <p className="text-xs text-slate-500">
-              खालील ७ कलेक्शन्स <code>moti_dukaan_db</code> डेटाबेसमध्ये तयार करा:
+              खालील ७ कलेक्शन्स निवडलेल्या विद्यमान Database मध्ये तयार करा. आधीपासून त्याच ID चे Collection असल्यास पुन्हा तयार करू नका:
             </p>
           </div>
         </div>
