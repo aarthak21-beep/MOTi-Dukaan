@@ -203,17 +203,16 @@ VITE_APPWRITE_COLLECTION_STOCK_MOVEMENTS=stock_movements`;
 
         <ol className="list-decimal list-inside space-y-2 text-xs text-slate-700 leading-relaxed">
           <li>
-            <strong>https://cloud.appwrite.io</strong> वर मोफत खाते तयार करा किंवा लॉगिन करा.
+            <strong>https://cloud.appwrite.io</strong> वर लॉगिन करा.
           </li>
           <li>
-            <strong>'Create Project'</strong> वर क्लिक करा आणि नाव द्या: <code>MOTi Dukaan</code>.
+            आधीपासून असलेला <strong>MOTIQCurrent</strong> प्रोजेक्ट उघडा. Project ID: <code>6aec72aa000ab9b6e984</code>. नवीन प्रोजेक्ट तयार करू नका.
           </li>
           <li>
-            डाव्या मेनूमध्ये <strong>'Databases'</strong> वर क्लिक करा आणि <strong>'Create Database'</strong> निवडा.
-            डेटाबेस ID ठेवा: <code>moti_dukaan_db</code>.
+            <strong>Databases</strong> मध्ये जाऊन MOTi Dukaan साठी वापरायचा विद्यमान Database निवडा. त्याचा अचूक ID कॉपी करा; <code>moti_dukaan_db</code> हा फक्त उदाहरण आहे. जुन्या Collections delete किंवा बदलू नका.
           </li>
           <li>
-            डाव्या मेनूमधून <strong>'Settings' &rarr; 'Web Apps'</strong> मध्ये जाऊन तुमचा डोमेन किंवा Render URL <strong>Hostname</strong> म्हणून जोडा (उदा. <code>localhost</code> आणि <code>*.onrender.com</code>).
+            प्रोजेक्टच्या <strong>'Settings' &rarr; 'Platforms'</strong> मध्ये जाऊन तुमचा डोमेन किंवा Render URL <strong>Hostname</strong> म्हणून जोडा (उदा. <code>localhost</code> आणि <code>*.onrender.com</code>).
           </li>
         </ol>
 
