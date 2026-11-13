@@ -1,7 +1,7 @@
 import { Client, Account, Databases, ID, Query } from 'appwrite';
 
 const ENDPOINT = import.meta.env.VITE_APPWRITE_ENDPOINT || 'https://cloud.appwrite.io/v1';
-const PROJECT_ID = import.meta.env.VITE_APPWRITE_PROJECT_ID || '';
+const PROJECT_ID = import.meta.env.VITE_APPWRITE_PROJECT_ID || '6aec72aa000ab9b6e984'; // MOTIQCurrent
 const DATABASE_ID = import.meta.env.VITE_APPWRITE_DATABASE_ID || '';
 
 export const client = new Client();
