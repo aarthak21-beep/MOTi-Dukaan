@@ -37,7 +37,7 @@
 5. In **Settings → Platforms**, add `localhost` for local development and your exact Render hostname for production.
 
 ### Step 2: Database Collections & Attributes
-Create the following collections inside `moti_dukaan_db`:
+Create the following collections inside the existing database selected for MOTi Dukaan. Use its actual Database ID in the environment variable; do not assume the ID is `moti_dukaan_db`.
 
 1. **`shops`**
    - Attributes: `ownerUserId` (string, 64), `shopName` (string, 128), `ownerName` (string, 128), `mobile` (string, 15), `email` (email), `address` (string, 255), `gstNumber` (string, 32), `tagline` (string, 128), `lowStockAlertLimit` (integer, default 5), `currency` (string, 10).
