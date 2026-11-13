@@ -29,13 +29,12 @@
 
 ## 3. Appwrite Cloud Setup Guide
 
-### Step 1: Create Project & Database
-1. Sign up or log in at [cloud.appwrite.io](https://cloud.appwrite.io).
-2. Click **Create Project** &rarr; Name: `MOTi Dukaan`.
-3. In the left navigation, go to **Databases** &rarr; **Create Database**:
-   - Database Name: `MOTi Dukaan DB`
-   - Database ID: `moti_dukaan_db`
-4. In **Settings** &rarr; **Web Apps**, add your Render domain or `localhost` as an authorized Hostname.
+### Step 1: Use the existing MOTIQCurrent project
+1. Sign in at [Appwrite Cloud](https://cloud.appwrite.io).
+2. Open the existing **MOTIQCurrent** project (Project ID: `6aec72aa000ab9b6e984`). Do not create another project.
+3. Open **Databases** and select the existing database you intend to dedicate to MOTi Dukaan. Do not delete or modify existing app collections.
+4. Copy that database's exact ID into `VITE_APPWRITE_DATABASE_ID`. The database ID must be read from the Appwrite Console; `moti_dukaan_db` is only an example and must not be assumed.
+5. In **Settings → Platforms**, add `localhost` for local development and your exact Render hostname for production.
 
 ### Step 2: Database Collections & Attributes
 Create the following collections inside `moti_dukaan_db`:
