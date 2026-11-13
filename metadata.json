@@ -1,0 +1,6 @@
+{
+  "name": "MOTi Dukaan",
+  "description": "Smart Shop Management SaaS for Indian Kirana & Retail Stores - तुमच्या दुकानाचा स्मार्ट साथीदार | MOTI TECHNOLOGIES",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
